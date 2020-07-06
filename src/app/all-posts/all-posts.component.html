@@ -1,0 +1,19 @@
+<div style="width: 100%; height: 100%;">
+  <div style="align-content: center;">
+         <input [(ngModel)]="input_userid" type="text" placeholder="USER ID"><br><br>
+         <input [(ngModel)]="input_title" type="text" placeholder="TITLE"><br><br>
+         <input [(ngModel)]="input_body" type="text" placeholder="BODY"><br><br>
+         <input [(ngModel)]="input_fname" type="text" placeholder="FIRSTNAME"><br><br>
+         <input [(ngModel)]="input_lname" type="text" placeholder="LASTNAME"><br><br>
+         <input [(ngModel)]="input_email" type="text" placeholder="EMAIL"><br><br>
+         <input [(ngModel)]="input_git" type="text" placeholder="GIT ID"><br><br>
+         <input [(ngModel)]="input_linkedin" type="text" placeholder="LINKEDIN ID"><br><br>
+         <button (click)="onclick()" class="btn btn-success">submit</button>
+
+  </div>
+
+
+</div>
+<router-outlet></router-outlet>
+
+<!-- <app-childpost [childpost]="allposts"></app-childpost> -->
